@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar Conta - Salus Odonto</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header-simples">
+  <div class="logo"><img src="imagens/logo.png" alt="Logo Salus Odonto"></div>
+  <a href="login.html" class="btn-voltar">← Voltar</a>
+</header>
+
+<section class="consulta">
+  <h1>Criar Conta</h1>
+  <p>Preencha os dados abaixo para criar seu cadastro na Salus Odonto.</p>
+
+  <form action="cadastro_concluido.html" method="get" class="consulta-form">
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="cpf">CPF:</label>
+    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+
+    <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="senha">Senha:</label>
+    <input type="password" id="senha" name="senha" required>
+
+    <button type="submit" class="btn-agendar">Concluir Cadastro</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Salus Odonto. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
