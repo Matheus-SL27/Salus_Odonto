@@ -1,6 +1,4 @@
-/* ============================== */
-/* 🔹 RESET GERAL                 */
-/* ============================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,9 +10,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* ============================== */
-/* 🔹 CABEÇALHO FIXO              */
-/* ============================== */
+
 header {
     position: fixed;
     top: 0;
@@ -31,7 +27,7 @@ header {
 }
 
 body {
-    padding-top: 90px; /* Espaço para o header fixo */
+    padding-top: 90px; 
 }
 
 header .logo img {
@@ -56,9 +52,7 @@ nav a.ativo {
     color: #90e0ef;
 }
 
-/* ============================== */
-/* 🔹 BANNER (HOME)               */
-/* ============================== */
+
 .banner {
     background: url("../imagens/banner.jpg") center/cover no-repeat, #103d6e;
     text-align: center;
@@ -75,9 +69,7 @@ nav a.ativo {
     font-size: 1.2rem;
 }
 
-/* ============================== */
-/* 🔹 SOBRE A CLÍNICA             */
-/* ============================== */
+
 .info-clinica {
     padding: 80px 40px;
     text-align: center;
@@ -104,9 +96,6 @@ nav a.ativo {
     text-align: justify;
 }
 
-/* ============================== */
-/* 🔹 NOSSA EQUIPE                */
-/* ============================== */
 .equipe {
     padding: 100px 20px;
     background-color: #f8f9fa;
@@ -147,9 +136,7 @@ nav a.ativo {
     transform: scale(1.05);
 }
 
-/* ============================== */
-/* 🔹 TRATAMENTOS                 */
-/* ============================== */
+
 .tratamentos {
     padding: 100px 40px;
     text-align: center;
@@ -201,9 +188,7 @@ nav a.ativo {
     transform: scale(1.03);
 }
 
-/* ============================== */
-/* 🔹 AVALIAÇÕES                  */
-/* ============================== */
+
 .avaliacoes {
     padding: 80px 20px;
     background-color: #f1f1f1;
@@ -238,9 +223,7 @@ nav a.ativo {
     color: #103d6e;
 }
 
-/* ============================== */
-/* 🔹 RODAPÉ                      */
-/* ============================== */
+
 footer {
     background-color: #103d6e;
     color: white;
@@ -248,9 +231,7 @@ footer {
     padding: 15px;
 }
 
-/* ============================== */
-/* 🔹 PÁGINAS DE CONSULTA         */
-/* ============================== */
+
 .consulta {
     text-align: center;
     padding: 60px 20px;
@@ -314,9 +295,7 @@ footer {
     box-shadow: 0px 0px 10px rgba(0, 119, 182, 0.6);
 }
 
-/* ============================== */
-/* 🔹 CONFIRMAÇÃO / CANCELAR      */
-/* ============================== */
+
 .confirmacao {
     text-align: center;
     padding: 100px 20px;
@@ -353,9 +332,7 @@ footer {
     box-shadow: 0 0 10px rgba(0, 119, 182, 0.8);
 }
 
-/* ============================== */
-/* 🔹 BOTÕES CANCELAR / ALTERAR   */
-/* ============================== */
+
 .acoes-consulta {
     text-align: center;
     margin-top: 20px;
@@ -406,16 +383,11 @@ footer {
     transform: scale(1.05);
 }
 
-/* ============================== */
-/* 🔹 AJUSTE DE ÂNCORA            */
-/* ============================== */
 section[id] {
-    scroll-margin-top: 120px; /* Corrige o deslocamento causado pelo header fixo */
+    scroll-margin-top: 120px; 
 }
 
-/* ============================== */
-/* 🔹 PÁGINA DE CONTATO           */
-/* ============================== */
+
 .contato {
     text-align: center;
     padding: 100px 20px;
@@ -465,9 +437,7 @@ section[id] {
     box-shadow: 0px 6px 15px rgba(0, 119, 182, 0.3);
 }
 
-/* ============================== */
-/* 🔹 PÁGINA DE LOGIN             */
-/* ============================== */
+
 .login {
     text-align: center;
     padding: 100px 20px;
@@ -537,9 +507,7 @@ section[id] {
     transform: scale(1.05);
 }
 
-/* ============================== */
-/* 🔹 CLIENTE E CLÍNICA           */
-/* ============================== */
+
 .cliente, .recepcao {
     text-align: center;
     padding: 100px 20px;
@@ -591,13 +559,13 @@ section[id] {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    align-items: stretch; /* 🔹 Faz os botões ficarem exatamente do mesmo tamanho verticalmente */
+    align-items: stretch; 
 }
 
 .btn-login {
     display: flex;
     justify-content: center;
-    align-items: center; /* 🔹 Centraliza o texto verticalmente */
+    align-items: center; 
     width: 48%;
     padding: 14px 0;
     color: white;
@@ -609,7 +577,7 @@ section[id] {
     letter-spacing: 0.5px;
 }
 
-/* Cores específicas */
+
 .btn-login.cliente {
     background-color: #0077b6;
 }
@@ -625,9 +593,7 @@ section[id] {
 .btn-login.clinica:hover {
     background-color: #0c2f56;
 }
-/* ============================== */
-/* 🔹 STATUS DE PAGAMENTO         */
-/* ============================== */
+
 .verde {
     border-left: 6px solid #2ecc71;
     background-color: #eafaf1;
